@@ -27,6 +27,18 @@
  	.activeCustom {color:#FFF !important}
 		.inactiveCustom {color:#A9A9A9 !important}
 		.hrefWithoutDecoration {text-decoration: none !important; color:black !important;}
+	   * {
+            padding: 0;
+            margin: 0;
+        }
+        .fit { /* set relative picture size */
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .center {
+            display: block;
+            margin: auto;
+        }
  </style>
 </head>
 <body>
@@ -60,9 +72,9 @@
                					<h2 style="color: white">My Resume <a href="/santhosh_resume.pdf" target="_blank" class="hrefWithoutDecoration"><button type="button" class="btn btn-light btn-outline-dark">View the pdf version</button></a></h2>
                				</div>
                			</div>	
-               		<div class="row bg-light">
-               		   <div class="col">		
-               	         <img src="/myresume.jpeg">
+               		<div class="row bg-coral pl-4"style="width: 100%">
+               		   <div class="col-lg-8">		
+               	         <img class="fit center"src="/myresume.jpeg">
                		   </div>
                		</div>
                		</div>
